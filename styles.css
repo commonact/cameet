@@ -1,0 +1,110 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f0f0;
+    color: #333;
+}
+
+header {
+    background-color: #17153A;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+}
+
+.header-logo {
+    width: 250px; /* Set the width of the header logo */
+    margin-bottom: 10px;
+}
+
+h1 {
+    margin: 10px 0;
+}
+
+nav {
+    background-color: #f19c35;
+    padding: 15px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+nav a {
+    color: #17153A;
+    text-decoration: none;
+}
+
+section {
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #17153A;
+    color: #fff;
+}
+
+button {
+    background-color: #F19C35;
+    color: #17153A;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+button:hover {
+    opacity: 0.9;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form input,
+form textarea {
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    width: 100%;
+}
+
+.partner-logos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.partner {
+    text-align: center;
+    margin: 20px;
+}
+
+.partner img {
+    width: 300px; /* Set logo width */
+    margin: 10px;
+    border-radius: 10px;
+}
+
+.partner img:hover {
+    transform: scale(1.1); /* Add a hover effect */
+    transition: transform 0.3s;
+}
